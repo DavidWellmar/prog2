@@ -1,5 +1,6 @@
 # https://docs.python.org/3/library/unittest.html
 import unittest
+from time import perf_counter as pc
 
 from HighOrderFunctionChecker import check_higher_order_functions
 from MA4_1_3 import *
