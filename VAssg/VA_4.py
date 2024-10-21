@@ -37,8 +37,8 @@ def main():
 	# f.setAge(51)
 	# print(f.getAge())
 	# print(f.getDecades())
-	n_lst = [5, 10, 15, 20, 25, 30, 35, 40, 45, 47, 50]
-	n_lst = [5, 8, 10, 12, 15, 18, 20, 22, 25, 28, 30]
+	
+	n_lst = [5, 8, 10, 12, 15, 18, 20, 22, 25, 28, 30, 35, 40, 45, 47, 50, 50]
 	
 	# Save the times for each fib calculation
 	numba_lst = [None]*len(n_lst)
